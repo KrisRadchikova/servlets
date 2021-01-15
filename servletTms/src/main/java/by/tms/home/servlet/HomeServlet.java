@@ -10,26 +10,6 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/")
 public class HomeServlet extends HttpServlet {
 
-//    @Override
-//    public void init() throws ServletException {
-//        System.out.println("init");
-//    }
-//
-//    @Override
-//    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.service(req, resp);
-//        System.out.println("Service");
-//    }
-//
-//    @Override
-//    public void destroy() {
-//        System.out.println("destroy");
-//    }
-
-    //app scope
-    //session scope
-    //request scope
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
